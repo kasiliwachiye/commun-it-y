@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
-import communIt from './../assets/images/community.jpg'
+import communIty from './../assets/images/community.jpg'
 import Grid from '@material-ui/core/Grid'
 import auth from './../auth/auth-helper'
 import FindPeople from './../user/FindPeople'
@@ -62,7 +62,7 @@ export default function Home({history}){
                 <Typography variant="h6" className={classes.title}>
                   Join the Commun-IT-y!
                 </Typography>
-                <CardMedia className={classes.media} image={communIt} title="CommunITy"/>
+                <CardMedia className={classes.media} image={communIty} title="CommunITy"/>
                 <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo credits: <a href="https://unsplash.com/@surface" target="_blank" rel="noopener noreferrer">Surface</a> on Unsplash</Typography>
                 <CardContent>
                   <Typography type="body1" component="p">
