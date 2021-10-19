@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
-import unicornbikeImg from './../assets/images/unicornbike.jpg'
+import communIt from './../assets/images/community.jpg'
 import Grid from '@material-ui/core/Grid'
 import auth from './../auth/auth-helper'
 import FindPeople from './../user/FindPeople'
@@ -60,13 +60,16 @@ export default function Home({history}){
             <Grid item xs={12}>
               <Card className={classes.card}>
                 <Typography variant="h6" className={classes.title}>
-                  Home Page
+                  Join the Commun-IT-y!
                 </Typography>
-                <CardMedia className={classes.media} image={unicornbikeImg} title="Unicorn Bicycle"/>
-                <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo by <a href="https://unsplash.com/@boudewijn_huysmans" target="_blank" rel="noopener noreferrer">Boudewijn Huysmans</a> on Unsplash</Typography>
+                <CardMedia className={classes.media} image={communIt} title="CommunITy"/>
+                <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo credits: <a href="https://unsplash.com/@surface" target="_blank" rel="noopener noreferrer">Surface</a> on Unsplash</Typography>
                 <CardContent>
                   <Typography type="body1" component="p">
-                    Welcome to the MERN Social home page. 
+                    Welcome to the Commun-IT-y 
+                  </Typography>
+                  <Typography>
+                    A social media platform for IT nerds ;)
                   </Typography>
                 </CardContent>
               </Card>

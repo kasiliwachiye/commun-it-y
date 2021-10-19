@@ -73,7 +73,7 @@ export default function Signin(props) {
       }
   }
   const {redirectToReferrer} = values
-    if (redirectToReferrer) {
+  if (redirectToReferrer) {
       return (<Redirect to={from}/>)
   }
 
@@ -93,7 +93,7 @@ export default function Signin(props) {
           }
         </CardContent>
         <CardActions>
-          <Button color="primary" variant="contained" onClick={clickSubmit} className={classes.submit}>Submit</Button>
+          <Button color="primary" variant="contained" onClick={clickSubmit} className={classes.submit}>Sign In</Button>
         </CardActions>
       </Card>
     )

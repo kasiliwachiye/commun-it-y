@@ -16,9 +16,9 @@ const isActive = (history, path) => {
 }
 const Menu = withRouter(({history}) => (
   <AppBar position="static">
-    <Toolbar>
+    <Toolbar style={{display: 'flex', justifyContent: 'space-between'}}>
       <Typography variant="h6" color="inherit">
-        MERN Social
+        Commun-IT-y
       </Typography>
       <Link to="/">
         <IconButton aria-label="Home" style={isActive(history, "/")}>
