@@ -6,9 +6,9 @@ import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
 import communIty from './../assets/images/community.jpg'
 import Grid from '@material-ui/core/Grid'
-import auth from './../auth/auth-helper'
-import FindPeople from './../user/FindPeople'
-import Newsfeed from './../post/Newsfeed'
+import auth from './auth/auth-helper'
+import FindPeople from './user/FindPeople'
+import Newsfeed from './post/Newsfeed'
 
 const useStyles = makeStyles(theme => ({
   root: {
