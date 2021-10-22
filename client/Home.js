@@ -69,7 +69,7 @@ export default function Home({history}){
                     Welcome to the Commun-IT-y 
                   </Typography>
                   <Typography>
-                    A social media platform for IT nerds ;)
+                    A platform for nerds :)
                   </Typography>
                 </CardContent>
               </Card>
