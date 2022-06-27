@@ -8,7 +8,9 @@ export default ({markup, css}) => {
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
         >
         <title>CommunIT</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Poppins:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <style>
             a{
