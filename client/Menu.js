@@ -18,7 +18,7 @@ const Menu = withRouter(({history}) => (
   <AppBar position="static">
     <Toolbar style={{display: 'flex', justifyContent: 'space-between'}}>
       <Typography variant="h6" color="inherit">
-        Commun-IT-y
+        CommunIT
       </Typography>
       <Link to="/">
         <IconButton aria-label="Home" style={isActive(history, "/")}>

@@ -60,13 +60,12 @@ export default function Home({history}){
             <Grid item xs={12}>
               <Card className={classes.card}>
                 <Typography variant="h6" className={classes.title}>
-                  Join the Commun-IT-y!
+                  Join the CommunIT
                 </Typography>
-                <CardMedia className={classes.media} image={communIty} title="CommunITy"/>
-                <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo credits: <a href="https://unsplash.com/@surface" target="_blank" rel="noopener noreferrer">Surface</a> on Unsplash</Typography>
+                <CardMedia className={classes.media} image={communIty} title="CommunIT"/>                
                 <CardContent>
                   <Typography type="body1" component="p">
-                    Welcome to the Commun-IT-y 
+                    Welcome to the CommunIT 
                   </Typography>
                   <Typography>
                     A platform for nerds :)

@@ -86,7 +86,7 @@ export default function Signup (){
           }
         </CardContent>
         <CardActions>
-          <Button color="primary" variant="contained" onClick={clickSubmit} className={classes.submit}>Join the Commun-IT-y</Button>
+          <Button color="primary" variant="contained" onClick={clickSubmit} className={classes.submit}>Join the Commun-IT</Button>
         </CardActions>
       </Card>
       <Dialog open={values.open} disableBackdropClick={true}>
