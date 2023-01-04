@@ -11,7 +11,7 @@
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "engines": {
-    "node": "16.14.0",
+    "node": "16.16.0",
     "npm": "8.5.0"
   },
   "devDependencies": {
