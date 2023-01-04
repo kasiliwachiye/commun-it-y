@@ -4,11 +4,11 @@
   "description": "A MERN stack based social media application",
   "author": "Kasili Wachiye",
   "license": "MIT",
-  "main": "./dist/index.js",
+  "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
-    "start": "NODE_ENV=production node ./dist/index.js"
+    "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "engines": {
     "node": "16.16.0",
