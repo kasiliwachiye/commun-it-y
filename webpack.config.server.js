@@ -1,5 +1,6 @@
 const path = require("path");
 const nodeExternals = require("webpack-node-externals");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CURRENT_WORKING_DIR = process.cwd();
 
 const config = {
@@ -16,7 +17,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         use: ["babel-loader"],
       },
@@ -26,6 +27,9 @@ const config = {
       },
     ],
   },
+  plugins: [
+    new CleanWebpackPlugin(),
+  ],
 };
 
 module.exports = config;
