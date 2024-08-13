@@ -7,9 +7,9 @@ const config = {
   mode: "production",
   entry: [path.join(CURRENT_WORKING_DIR, "client/main.js")],
   output: {
-    path: path.join(CURRENT_WORKING_DIR, "/public"), // Change from "/dist" to "/public"
+    path: path.join(CURRENT_WORKING_DIR, "/dist"),
     filename: "bundle.js",
-    publicPath: "/public/",
+    publicPath: "/dist/",
   },
   module: {
     rules: [

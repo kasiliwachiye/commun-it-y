@@ -1,4 +1,3 @@
-// webpack.config.server.js
 const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
@@ -9,9 +8,9 @@ const config = {
   entry: [path.join(CURRENT_WORKING_DIR, "./server/server.js")],
   target: "node",
   output: {
-    path: path.join(CURRENT_WORKING_DIR, "/server-dist/"),
+    path: path.join(CURRENT_WORKING_DIR, "/dist/"),
     filename: "server.generated.js",
-    publicPath: "/server-dist/",
+    publicPath: "/dist/",
     libraryTarget: "commonjs2",
   },
   externals: [nodeExternals()],

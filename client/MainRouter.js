@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "../client/Home";
 import Users from "./user/Users";
 import Signup from "./user/Signup";
@@ -9,11 +9,11 @@ import Profile from "./user/Profile";
 import PrivateRoute from "./auth/PrivateRoute";
 import Menu from "../client/Menu";
 
-const MainRouter = () => {
+const MainRouter = ({ location }) => {
   return (
-    <Router>
+    <>
       <Menu />
-      <Routes>
+      <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/users" element={<Users />} />
         <Route path="/signup" element={<Signup />} />
@@ -28,7 +28,7 @@ const MainRouter = () => {
         />
         <Route path="/user/:userId" element={<Profile />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 
